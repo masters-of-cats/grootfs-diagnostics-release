@@ -1,0 +1,48 @@
+name: grootfs-diagnostics
+version: 0.1.1
+commit_hash: ca03549
+uncommitted_changes: false
+jobs:
+- name: grootfs-diagnostics
+  version: 7429a640d3b15a02b029f6e6d60ee527a04e0191450864a798d5abe4836b13df
+  fingerprint: 7429a640d3b15a02b029f6e6d60ee527a04e0191450864a798d5abe4836b13df
+  sha1: sha256:642beacf9dfa48386a644a24926e0ba3fb6c6bd5038114b58a69e7e39e9d05a9
+packages:
+- name: badapps
+  version: 2240a7d3a8f26a3f56428c0c46dcc7ef17ef9b6621990d8f9e72be260e14cb0a
+  fingerprint: 2240a7d3a8f26a3f56428c0c46dcc7ef17ef9b6621990d8f9e72be260e14cb0a
+  sha1: sha256:ec07caec17334c0cdcf578058d49bea70156333064890220f3a2e7d82751f38b
+  dependencies:
+  - golang
+- name: golang
+  version: 2b41df6e2ab374caf6f4c869e8544592d884490e6ab506189277b3fd7497146f
+  fingerprint: 2b41df6e2ab374caf6f4c869e8544592d884490e6ab506189277b3fd7497146f
+  sha1: sha256:503783e78ee34ca135ece204ac259e44dd1761e1d9039c1649dfb11ed406d74b
+  dependencies: []
+- name: laika
+  version: 61c56d232e99c5ab6543313f9e64037140347eb2ba3dfdd05e18b7e4620d47ae
+  fingerprint: 61c56d232e99c5ab6543313f9e64037140347eb2ba3dfdd05e18b7e4620d47ae
+  sha1: sha256:75040c412e3bbc9039edd7138a61f1be0b3c83af8a11cf4aa090292297980369
+  dependencies:
+  - golang
+- name: metatron
+  version: 8b42720a584ab0494c4c828d1f967e08aaf0b2bb313cd392c29a53b07dfc9480
+  fingerprint: 8b42720a584ab0494c4c828d1f967e08aaf0b2bb313cd392c29a53b07dfc9480
+  sha1: sha256:ee5d5761da5a9582c35b1858a9b2653372dbb24a1115b2ce2ab5f10ab6626b16
+  dependencies:
+  - golang
+- name: showmewhatyougot
+  version: 8ab3e1cd3dfdee9e40ca411f9854c91629b68c95451651fb4f00a206158eeb15
+  fingerprint: 8ab3e1cd3dfdee9e40ca411f9854c91629b68c95451651fb4f00a206158eeb15
+  sha1: sha256:6d567a049842e707226ed2a7ef42e9aa1a9f1559967200ac005296e025030d19
+  dependencies:
+  - golang
+- name: trace-cmd
+  version: 4216b23d39a12d7dc25b4836a078986ff46f19ee492ebc77cc89c9ea9471e247
+  fingerprint: 4216b23d39a12d7dc25b4836a078986ff46f19ee492ebc77cc89c9ea9471e247
+  sha1: sha256:65f8234392bc12fc8dd312bdab07fe0722db63d05fd072fb76e641202ad48bb8
+  dependencies: []
+license:
+  version: d4cf0e579318e6efe5c3b6e99f8f3d774a101106794e5898f1d666f7a3225e55
+  fingerprint: d4cf0e579318e6efe5c3b6e99f8f3d774a101106794e5898f1d666f7a3225e55
+  sha1: sha256:691fbdad226ec34d80d7034b1a01507d4bdd27ba534ec043daf48ee0ee8dd68d
